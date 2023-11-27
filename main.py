@@ -1,7 +1,7 @@
 # main.py
 
 import tkinter as tk
-from functions import convert_temperature, clear_fahrenheit_entry, clear_celsius_entry
+from app.functions import convert_temperature, clear_fahrenheit_entry, clear_celsius_entry
 
 def main():
     root = tk.Tk()
