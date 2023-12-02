@@ -3,6 +3,7 @@
 import tkinter as tk
 import math
 
+
 def convert_temperature(celsius_entry, fahrenheit_entry, result_label):
     try:
         if celsius_entry.get():
@@ -18,8 +19,10 @@ def convert_temperature(celsius_entry, fahrenheit_entry, result_label):
     except ValueError:
         result_label.config(text="Invalid input. Please enter a valid number.")
 
+
 def clear_fahrenheit_entry(fahrenheit_entry):
     fahrenheit_entry.delete(0, tk.END)
+
 
 def clear_celsius_entry(celsius_entry):
     celsius_entry.delete(0, tk.END)

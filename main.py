@@ -3,6 +3,7 @@
 import tkinter as tk
 from app.functions import convert_temperature, clear_fahrenheit_entry, clear_celsius_entry
 
+
 def main():
     root = tk.Tk()
     root.title("Temperature Converter")
@@ -28,6 +29,7 @@ def main():
     convert_button.grid(row=3, column=0, columnspan=2, pady=10)
 
     root.mainloop()
+
 
 if __name__ == "__main__":
     main()
